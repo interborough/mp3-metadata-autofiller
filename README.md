@@ -17,7 +17,7 @@ For this program to function correctly you must have Python installed, along wit
 - Click on the "Create an App" button on the top right corner of the page. 
 - Enter a name and description for your app (it can be anything you'd like) and click on the "Create" button.
 - You should be redirected to a seperate page for your app. Underneath the title and description for your app, there should be a "Client ID", and a "Client Secret" value (you may have to click the text labeled "Show Client Secret" to see the Client Secret value). 
-- Edit lines 21 and 22 in the autofiller.py script, replacing the "PLACEHOLDER" text with your Client ID and Client Secret values (ex: `client_id = "PLACEHOLDER"` should become `client_id = "YOUR_CLIENT_ID_VALUE"`, and `client_secret = "PLACEHOLDER"` should become `client_secret = "YOUR_CLIENT_ID_VALUE"`, where you substitute in your Cilent ID and Client Secret values accordingly). 
+- Edit lines 21 and 22 in the autofiller.py script, replacing the "PLACEHOLDER" text with your Client ID and Client Secret values (ex: `client_id = "PLACEHOLDER"` should become `client_id = "YOUR_CLIENT_ID_VALUE"`, and `client_secret = "PLACEHOLDER"` should become `client_secret = "YOUR_CLIENT_SECRET_VALUE"`, where you substitute in your Cilent ID and Client Secret values accordingly). 
 
 # How to Use
 - Complete the steps outlined in the "First Time Setup" section above. 
