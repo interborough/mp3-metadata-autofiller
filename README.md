@@ -1,7 +1,7 @@
 # MP3 Metadata Autofiller
 A Python script that uses the Spotify Web API to add album art to and fill in an MP3 file's metadata. 
 
-This script will prompt you for an MP3 file through a file selection menu. After selecting a file, the script queries Spotify's API and embeds the relevant metadata (song name, song artist, album name, album artist, track, number, disk number, album art) that is obtained from Spotify into the MP3 file. 
+This script will prompt you for an MP3 file through a file selection menu. After selecting a file, the script queries Spotify's API and embeds the relevant metadata (song name, song artist, album name, album artist, track, number, disk number, album art, etc.) that is obtained from Spotify into the MP3 file. 
 
 # Dependencies
 For this program to function correctly you must have Python installed, along with the spotipy and mutagen libaries for Python.
