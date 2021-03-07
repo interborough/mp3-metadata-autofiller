@@ -1,7 +1,7 @@
 import os
 import sys
 
-from string import printable, ascii_letters, digits
+from string import ascii_letters, digits, whitespace
 
 import tkinter
 from tkinter.filedialog import askopenfilename
@@ -31,7 +31,7 @@ def main():
     # Having titles with special characters like " or ' in the search query will cause the artist filter to
     # break and therefore not return any results in the items array. Searching only by title in this case
     # bypasses this issue.
-    if set(track_name).difference(printable) or set(track_name).difference(ascii_letters + digits):
+    if set(track_name).difference(ascii_letters + digits + whitespace):
         print("Track name has special characters in its title. Searching Spotify by title only.")
         track_query = spotify.search(q=track_name, limit=1)
     else:
