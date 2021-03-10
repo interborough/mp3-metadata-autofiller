@@ -23,7 +23,7 @@ For this program to function correctly you must have Python installed, along wit
 # How to Use
 - Complete the steps outlined in the "First Time Setup" section above. 
 - Run a terminal window in the folder that you extracted the zip file to, and enter `python autofiller.py`.
-- A file selection window will appear. Select the MP3 files that you wish to find metadata for. Ensure that the names of these file are in the following format: `Artist Name - Track Name` (ex: Billy Joel - Tell Her About It).  
+- A file selection window will appear. Select the MP3 files that you wish to find metadata for. Ensure that the names of these files are in the following format: `Artist Name - Track Name` (ex: Billy Joel - Tell Her About It).  
 
 # Troubleshooting
 If the script is unable to locate a song or is getting incorrect information, here are a few things to try or take note of. 
