@@ -130,7 +130,7 @@ def obtain_and_edit_metadata(song_list, spotify):
             except IndexError:
                 break
 
-        genre_query = spotify.search(q="artist:" + song.artist, type="artist", limit=1)
+        genre_query = spotify.search(q="artist:" + album_artist, type="artist", limit=1)
         genres = []
         genre_index = 0
 
